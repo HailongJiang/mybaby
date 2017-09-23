@@ -1,0 +1,518 @@
+html, body {
+        position: relative;
+        width:6.4rem;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 0.14rem;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size: 0.32rem;
+        background: #fff;
+    }
+    .page1{
+        /* background-color: yellowgreen; */
+        position: relative;
+    }
+    .page1 .page11{
+        position: absolute;
+        width: 1.6rem;
+        height: 2.4rem;
+        /* border: 0.01rem solid ; */
+        background: url(../images/bg1.png) 0 0 / 100% 100%;
+        top:0.5rem;
+        left: -0.5rem;
+    }
+    .page1 .page12{
+        position: absolute;
+        width: 1.6rem;
+        height: 2.4rem;
+        /* border: 0.01rem solid ; */
+        background: url(../images/bg1.png) 0 0 / 100% 100%;
+        top:0rem;
+        left: 1.8rem;
+    }
+    .page1 .page13{
+        position: absolute;
+        width: 1.6rem;
+        height: 2.4rem;
+        /* border: 0.01rem solid ; */
+        background: url(../images/bg1.png) 0 0 / 100% 100%;
+        top:1.5rem;
+        left: 5.2rem;
+    }
+    .page1 .page14{
+        position: absolute;
+        width: 1.6rem;
+        height: 2.4rem;
+        /* border: 0.01rem solid ; */
+        background: url(../images/bg1.png) 0 0 / 100% 100%;
+        top:3.5rem;
+        left: 4.0rem;
+    }
+    .page1 .page15{
+        position: absolute;
+        width: 1.6rem;
+        height: 2.4rem;
+        /* border: 0.01rem solid ; */
+        background: url(../images/bg1.png) 0 0 / 100% 100%;
+        top:5.9rem;
+        left: 2.8rem;
+    }
+    .page1 .page16{
+        position: absolute;
+        width: 1.6rem;
+        height: 2.4rem;
+        /* border: 0.01rem solid ; */
+        background: url(../images/bg1.png) 0 0 / 100% 100%;
+        top:4.5rem;
+        left: 0.3rem;
+    }
+    .page1 .page17{
+        position: absolute;
+        width: 1.6rem;
+        height: 2.4rem;
+        /* border: 0.01rem solid ; */
+        background: url(../images/bg1.png) 0 0 / 100% 100%;
+        top:7.8rem;
+        left: -0.3rem;
+    }
+    .page1 .page18{
+        position: absolute;
+        width: 1.6rem;
+        height: 2.4rem;
+        /* border: 0.01rem solid ; */
+        background: url(../images/bg1.png) 0 0 / 100% 100%;
+        top:9.8rem;
+        left: 2.3rem;
+    }
+    .page1 .page19{
+        position: absolute;
+        width: 1.6rem;
+        height: 2.4rem;
+        /* border: 0.01rem solid ; */
+        background: url(../images/bg1.png) 0 0 / 100% 100%;
+        top:6.8rem;
+        left: 5rem;
+    }
+    .page1 .head{
+        width: 100%;
+        position: absolute;
+        top: 3rem;
+        display: flex;
+        justify-content: center;
+    }
+    .page1 .page1pic{
+        width: 3.6rem;
+        height: 3.6rem;
+        border-radius: 2rem;
+        background: url(../images/044A4528.jpg) 0 0 /100% 100%;
+    }
+    .page1 .txt{
+        width: 100%;
+        height: 4rem;
+        position: absolute;
+        top: 7.8rem;
+        display: flex;
+        justify-content: center;
+    }
+    .page1txt1{
+        letter-spacing: 0.1rem;
+        font-size: 0.38rem;
+    }
+    .pink{
+        color: pink; 
+    }
+    .grey{
+        color: grey;
+        margin-left: 0.2rem;
+    }
+    .page1 .heartpic{
+        width: 100%;
+        position: absolute;
+        top: 8.6rem;
+        display: flex;
+        justify-content: center;
+    }
+   .page1 .heart{
+        width:0.44rem;
+        height: 0.44rem; 
+        background: url(../images/bg7.png) 0 0 /100% 100%; 
+    }
+    .page1 .borthtime{
+        width: 100%;
+        position: absolute;
+        top: 9.3rem;
+        /* display: flex;
+        justify-content: center; */
+        text-align: center;
+        color: grey;
+        letter-spacing: 0.01rem;
+    }
+    // .page2{
+    //     text-align: center;
+    // }
+    .page2 .page2pic1{
+        width: 100%;
+        height: 4rem;
+        background: url(../images/044A4556.jpg) 0 0/100% 100%;
+    }
+    .page2 .page2pic4{
+        width: 100%;
+        height: 4rem;
+        background: url(../images/044A4570.jpg) 0 0/100% 100%;
+    }
+    .page2 .page2pic{
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+        width: 100%;
+        display: flex;
+        justify-content: center; 
+        position: relative;
+    }
+    .page2 .page2pic2{
+        width: 3rem;
+        height: 3rem;
+        background: url(../images/bg14.png) 0 0/100% 100%;
+    }
+    .page2 .page2pic3{
+        width: 100%;
+        height: 2rem;
+        background: url(../images/bg15.png) 0 0/100% 100%;
+        position: absolute;
+        top: 0.5rem;
+        // z-index: 1;
+    }
+    .page3 .page3pic1{
+        width: 100%;
+        height: 3.15rem;
+        display: flex;
+        justify-content:space-between;    
+    }
+    .page3 .page3pic1l{
+        width: 3.15rem;
+        height: 3.15rem;
+        background: url(../images/044A4559.jpg) 0 0/100% 100%;
+    }
+    .page3 .page3pic1r{
+        width: 3.15rem;
+        height: 3.15rem;
+        background: url(../images/044A4543.jpg) 0 0/100% 100%;
+    }
+    .page3 .page3pic2{
+        margin-top: 0.1rem;
+        width: 100%;
+        height: 3.15rem;
+        display: flex;
+        justify-content:space-between;    
+    }
+    .page3 .page3pic2l{
+        width: 3.15rem;
+        height: 3.15rem;
+        background: url(../images/044A4595.jpg) 0 0/100% 100%;
+    }
+    .page3 .page3pic2r{
+        width: 3.15rem;
+        height: 3.15rem;
+        background: url(../images/044A4599.jpg) 0 0/100% 100%;
+    }
+    .page3 .page3flower{
+        width: 1.0rem;
+        height: 1.0rem;
+        background: url(../images/bg6.png) 0 0/100% 100%;
+        position: absolute;
+        top: 2.7rem;
+        left: 2.7rem;
+        opacity: 0.7;
+    }
+    .page3txt{
+        font-size: 0.25rem;
+        text-align: left;
+        color: rgb(142, 96, 80);
+        font-family: fangmeng;
+        position: absolute;
+        z-index: 11;
+        left: 0.5rem;
+        top: 7.8rem;
+    }
+    .page3txt p{
+        height: 0.6rem;
+    }
+    .page3 .page3txtbg1{
+        width: 100%;
+        height: 5.2rem;
+        background: url(../images/bg10.png) 20% 0/100% 100%;
+        position: absolute;
+        bottom: 0;
+    }
+    .page3 .page3txtbg2{
+        width: 1.4rem;
+        height: 2rem;
+        background: url(../images/bg11.png) 20% 0/100% 100%;
+        position: absolute;
+        left: 4.3rem;
+        bottom: 1rem;
+        opacity: 0.6
+    }
+    .page4 #page4bg1{
+        height: 100%;
+        width: 2.5rem;
+        background: url(../images/bg111.png) 0 0/100% 100%;
+        position: absolute;
+        left: 1.5rem;
+    }
+    .page4 #page4bg2{
+        width: 4.7rem;
+        height: 3.3rem;
+        background: url(../images/044A9003.jpg) 0 0/100% 100%;
+        position: absolute;
+        top: 2rem;
+        left: 0.2rem;
+    }
+    .page4 #page4bg3{
+        width: 4.7rem;
+        height: 3.3rem;
+        background: url(../images/044A9015.jpg) 0 0/100% 100%;
+        position: absolute;
+        top: 5.8rem; 
+        left: 1.5rem;      
+    }
+    .page4 #page4bg4{
+        width: 1.4rem;
+        height: 0.96rem;
+        background: url(../images/bg112.png) 0 0/100% 100%;
+        position: absolute;
+        top: 0.6rem; 
+        left: 1.7rem;      
+    }
+    .page4 #page4bg5{
+        width: 0.43rem;
+        height: 0.33rem;
+        background: url(../images/bg117.png) 0 0/100% 100%;
+        position: absolute;
+        top: 1.5rem; 
+        left: 1.8rem;      
+    }
+    .page4 #page4bg6{
+        width: 0.4rem;
+        height: 0.3rem;
+        background: url(../images/bg116.png) 0 0/100% 100%;
+        position: absolute;
+        top: 1.7rem; 
+        left: 2.4rem;      
+    }
+    .page4 #page4bg7{
+        width: 0.4rem;
+        height: 0.3rem;
+        background: url(../images/bg115.png) 0 0/100% 100%;
+        position: absolute;
+        top: 1.9rem; 
+        left: 2rem;      
+    }
+    .page4 #page4bg8{
+        width: 0.4rem;
+        height: 0.3rem;
+        background: url(../images/bg113.png) 0 0/100% 100%;
+        position: absolute;
+        top: 2.3rem; 
+        left: 1.9rem;      
+    }
+    .page4 #page4bg9{
+        width: 0.8rem;
+        height: 0.45rem;
+        background: url(../images/bg114.png) 0 0/100% 100%;
+        position: absolute;
+        top: 1.8rem; 
+        left: 4.6rem;      
+    }
+    .page4 #page4bg10{
+        width: 0.37rem;
+        height: 0.28rem;
+        background: url(../images/bg117.png) 0 0/100% 100%;
+        position: absolute;
+        top: 2.5rem; 
+        left: 4.55rem;      
+    }
+    .page4 #page4bg11{
+        width: 0.37rem;
+        height: 0.28rem;
+        background: url(../images/bg116.png) 0 0/100% 100%;
+        position: absolute;
+        top: 2.3rem; 
+        left: 5rem;       
+    }
+    .page4 #page4bg12{
+        width: 0.34rem;
+        height: 0.24rem;
+        background: url(../images/bg115.png) 0 0/100% 100%;
+        position: absolute;
+        top: 2.8rem; 
+        left: 4.65rem;       
+    }
+    .page4 #page4bg13{
+        width: 0.34rem;
+        height: 0.24rem;
+        background: url(../images/bg113.png) 0 0/100% 100%;
+        position: absolute;
+        top: 2.99rem; 
+        left: 4.98rem;       
+    }
+    .page4 #page4bg14{
+        width: 2.31rem;
+        height: 2.11rem;
+        background: url(../images/bg12.png) 0 0/100% 100%;
+        position: absolute;
+        top: 2.99rem; 
+        left: 3.98rem; 
+        opacity: 0.4;      
+    }
+    .page4 #page4bg15{
+        color: rgb(133, 139, 140);
+        width: 5rem;
+        position: absolute;
+        top: 9.4rem; 
+        left: 1.4rem; 
+        opacity: 0.4;      
+    }
+    .page5 #page5bg1{
+        width: 3.15rem;
+        height: 3.15rem;
+        background: url(../images/044A9019.jpg) 0 0/100% 100%;
+        position: absolute;
+        top: 0rem; 
+        left: 0rem;     
+    }
+    .page5 #page5bg2{
+        width: 3.15rem;
+        height: 3.15rem;
+        background: url(../images/044A9030.jpg) 0 0/100% 100%;
+        position: absolute;
+        top: 0rem; 
+        left: 3.25rem;     
+    }
+    .page5 #page5bg3{
+        width: 100%;
+        height: 4.1rem;
+        background: url(../images/044A9050.jpg) 0 0/100% 100%;
+        position: absolute;
+        bottom: 0rem; 
+        left: 0rem;     
+    }
+    .page5 #page5bg4{
+        width: 100%;
+        height: 3.0rem;
+        background: url(../images/bg15.png) 0 0/100% 100%;
+        position: absolute;
+        top: 3.75rem;  
+        left: 0rem;     
+    }
+    .page5 #page5bg5{
+        width: 2rem;
+        height: 2rem;
+        background: url(../images/bg13.png) 0 0/100% 100%;
+        position: absolute;
+        top: 4.2rem;  
+        left: 2.2rem;     
+    }
+    .page5 #page5bg6{
+        width: 1rem;
+        height: 1rem;
+        color: #49ddb1;
+        font-size: 0.4rem;
+        position: absolute;
+        top: 4.6rem;  
+        left: 2.7rem;     
+    }
+    .page5 #page5bg7{
+        width: 2.4rem;
+        height: 2rem;
+        letter-spacing: 0.06rem;
+        color: rgb(133, 139, 140);
+        font-size: 0.24rem;
+        position: absolute;
+        top: 5.3rem;  
+        left: 0.06rem;     
+    }
+    .page5 #page5bg8{
+        width: 2.35rem;
+        height: 2rem;
+        letter-spacing: 0.06rem;
+        color: rgb(133, 139, 140);
+        font-size: 0.24rem;
+        position: absolute;
+        top: 4.2rem;  
+        left: 4.1rem;     
+    }
+    .page6 #page6bg1{
+        width: 100%;
+        height: 4.38rem;
+        background: url(../images/044A9063.jpg) 0 0/100% 100%;
+        position: absolute;
+        top: 0rem;  
+        left: 0rem;     
+    }
+    .page6 #page6bg2{
+        width: 100%;
+        height: 7.4rem;
+        position: absolute;
+        top: 4.38rem;  
+        left: 0rem;
+        background-color: rgb(245, 87, 71);     
+    }
+    .page6 #page6bg3{
+        width: 5.8rem;
+        height: 6.4rem;
+        position: absolute;
+        top: 4.7rem;  
+        left: 0.3rem;
+        background-color: white;     
+    }
+    .page6 #page6bg4{
+        background: url(../images/bg9.gif) 0 0/100% 100%;
+        width: 2.15rem;
+        height: 2.43rem;
+        position: absolute;
+        top: 4rem;  
+        left: 2.1rem;   
+    }
+    .page6 #page6bg5{
+        background: url(../images/bg8.png) 0 0/100% 100%;
+        width: 1.46rem;
+        height: 0.95rem;
+        position: absolute;
+        top: 3.98rem;  
+        left: 2.47rem;   
+    }
+    .page6 #page6bg6{
+        width: 4rem;
+        height: 0.95rem;
+        position: absolute;
+        top: 6.4rem;  
+        left: 1.2rem;  
+        color: rgb(231, 197, 187);
+        font-size: 0.56rem; 
+        letter-spacing: 0.1rem;
+    }
+    .page6 #page6bg7{
+        width: 4rem;
+        height: 0.95rem;
+        position: absolute;
+        top: 7.4rem;  
+        left: 1.2rem;  
+        color: rgb(141, 141, 141);
+        font-size: 0.28rem; 
+        letter-spacing: 0.1rem;
+        text-align: left;
+    }

@@ -261,7 +261,7 @@ html, body {
         height: 5.2rem;
         background: url(../images/bg10.png) 20% 0/100% 100%;
         position: absolute;
-        bottom: 0;
+        bottom: -0.5rem;
     }
     .page3 .page3txtbg2{
         width: 1.4rem;

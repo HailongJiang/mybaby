@@ -1,7 +1,7 @@
 html, body {
         position: relative;
         width:6.4rem;
-        height: 100%;
+        height: auto;
     }
     body {
         background: #eee;
